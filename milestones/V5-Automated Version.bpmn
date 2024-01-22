@@ -7,7 +7,7 @@
       <zeebe:userTaskForm id="userTaskForm_0khiqpl">{
   "components": [
     {
-      "text": "&lt;img src=\"http://localhost:8080/camunda/online/banking/img/core-img/logo.png\"&gt;&lt;h2&gt;Instructions:&lt;/h2&gt;&lt;p&gt;Based on internal protocal and the given information below, tick the checkbox for 'Approved' if this application should be approved.&lt;/p&gt;&lt;p&gt; Otherwise, leave this checkbox blank.&lt;/p&gt;",
+      "text": "&lt;img src=\"http://localhost:9090/camunda/online/banking/img/core-img/logo.png\"&gt;&lt;h2&gt;Instructions:&lt;/h2&gt;&lt;p&gt;Based on internal protocal and the given information below, tick the checkbox for 'Approved' if this application should be approved.&lt;/p&gt;&lt;p&gt; Otherwise, leave this checkbox blank.&lt;/p&gt;",
       "type": "text",
       "id": "Field_0e9521u"
     },

@@ -6,8 +6,8 @@ This demo showcases a simplified bank account application process using the Camu
 The project includes a simple self-contained, custom-made web frontend, which can be used to submit applications.
 After deploymnet the web pages are available under:
 
-* English: http://localhost:8080/camunda/online/index.html?lang=en
-* German: http://localhost:8080/camunda/online/index.html?lang=de
+* English: http://localhost:9090/camunda/online/index.html?lang=en
+* German: http://localhost:9090/camunda/online/index.html?lang=de
 
 # Versions (Iterations)
 
@@ -51,9 +51,9 @@ Click the 'Create' button and name the key `SENDGRID_DEMO`, provide your sendgri
       Hint: Make sure that you did not modify the credential part in application.yml in the project, this might overwrite the settings from `setup-secrets.sh` and connection can fail.
 
 1. Navigate to
-   * [http://localhost:8080/camunda/online/banking/index.html?lang=en](http://localhost:8080/camunda/online/banking/index.html?lang=en) for Banking UI, or 
-   * (not yet fully working) [http://localhost:8080/camunda/online/insurance/index.html?lang=en](http://localhost:8080/camunda/online/insurance/index.html?lang=en) for Insurance UI, or
-   * (not yet fully working) [http://localhost:8080/camunda/online/telco/index.html?lang=en](http://localhost:8080/camunda/online/telco/index.html?lang=en) for Telco UI.
+   * [http://localhost:9090/camunda/online/banking/index.html?lang=en](http://localhost:9090/camunda/online/banking/index.html?lang=en) for Banking UI, or 
+   * (not yet fully working) [http://localhost:9090/camunda/online/insurance/index.html?lang=en](http://localhost:9090/camunda/online/insurance/index.html?lang=en) for Insurance UI, or
+   * (not yet fully working) [http://localhost:9090/camunda/online/telco/index.html?lang=en](http://localhost:9090/camunda/online/telco/index.html?lang=en) for Telco UI.
    
    Congratulations! Submit an application or two and check out your live processes by launching Operate from your Camunda Cloud SaaS cluster.
 

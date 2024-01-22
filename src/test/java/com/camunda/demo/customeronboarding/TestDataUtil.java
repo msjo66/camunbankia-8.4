@@ -22,7 +22,7 @@ public class TestDataUtil {
         application.getApplicant().setName(NAME);
         application.getApplicant().setEmail(EMAIL);
         application.getApplicant().setGender(GENDER);
-        application.setUiBaseUrl("http://localhost:8080/camunda/online/banking/");
+        application.setUiBaseUrl("http://localhost:9090/camunda/online/banking/");
         application.setCorporation("Camunbankia");
         application.setCategory(Categorys.STANDARD_PACKAGE.displayName());
         application.setContractNumber("A-11731");

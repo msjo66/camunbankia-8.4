@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "text": "<img src=\"http://localhost:8080/camunda/online/banking/img/core-img/logo.png\"><h2>Instructions:</h2><p>Based on internal protocal and the given information below, tick the checkbox for 'Approved' if this application should be approved.</p><p> Otherwise, leave this checkbox blank.</p>",
+      "text": "<img src=\"http://localhost:9090/camunda/online/banking/img/core-img/logo.png\"><h2>Instructions:</h2><p>Based on internal protocal and the given information below, tick the checkbox for 'Approved' if this application should be approved.</p><p> Otherwise, leave this checkbox blank.</p>",
       "type": "text",
       "id": "Field_0e9521u"
     },

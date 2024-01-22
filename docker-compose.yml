@@ -6,13 +6,13 @@ services:
    environment:
     TZ: Europe/Berlin
    ports:
-     - 8084:8080
+     - 8084:9090
   showcase-worker:
    build: ./external-task-worker/
    environment:
      TZ: Europe/Berlin
    ports:
-     - 8085:8080
+     - 8085:9090
 
 networks:
   default:
