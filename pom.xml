@@ -10,8 +10,9 @@
 
 	<properties>
 		<!--Version 문제점 여기 있음. 8.3.0도 안되고 8.4.0도 안됨. https://forum.camunda.io/t/client-application-with-self-managed-8-3-and-no-identity-does-not-work-with-8-4-self-managed/49996/2-->
-		<zeebe.version>8.3.4</zeebe.version>
-		<springBoot.version>2.7.18</springBoot.version>
+		<zeebe.version>8.4.0</zeebe.version>
+		<!-- 문제는 이거였음. https://github.com/camunda-community-hub/spring-zeebe 에 보면 spring boot compatible version에 2.7.x라고 되어 있지만 실제로 2.7.3의 경우 오류 발생함 -->
+		<springBoot.version>3.2.2</springBoot.version>
 
 		<java.version>17</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
